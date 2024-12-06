@@ -6,7 +6,7 @@ resource "aws_instance" "aws_linux" {
     count = 1
     ami = "ami-0166fe664262f664c"
     instance_type = "t2.micro"
-    key_name = "keypair"
+    key_name = "keypair1"
     tags = {
         Name = "aws_linux"
     }
